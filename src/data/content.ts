@@ -101,8 +101,8 @@ export const SOCIALS: SocialLink[] = [
   },
   {
     name: "YouTube",
-    handle: "@vinaysawant",
-    url: "https://youtube.com/@vinaysawant",
+    handle: "@vinaysawant3859",
+    url: "https://www.youtube.com/@vinaysawant3859",
     icon: "youtube"
   }
 ];
