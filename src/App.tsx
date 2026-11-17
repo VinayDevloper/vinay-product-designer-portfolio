@@ -99,7 +99,7 @@ export default function App(): React.JSX.Element {
         {currentView === 'case-study' && activeProject ? (
           <CaseStudyPage
             project={activeProject}
-            onBack={handleBackToHome}
+            onBack={handleOpenWorkPage}
             onSelectProject={handleOpenCaseStudy}
           />
         ) : currentView === 'work' ? (

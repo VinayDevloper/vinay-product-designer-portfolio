@@ -44,9 +44,11 @@ export default function App(): React.JSX.Element {
   }, []);
 
   const handleOpenWorkPage = useCallback(() => {
-    setCurrentView('work');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
+  setSelectedProjectId(null);
+  setCurrentView('work');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}, []);
+
 
   const handleBackToHome = useCallback(() => {
     setCurrentView('home');
